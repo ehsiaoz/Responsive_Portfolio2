@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+
+    
+    .small-collapse{
+    	width: 100%;
+    	margin-bottom: 15px;
+    }
+    .main-section {
+        padding-top: 130px;
+    }
+	.profile {
+	    width:45%;
+		height: auto;
+		margin: 0 15px 10px 0;
+		float: left;
+	}
+
+}
