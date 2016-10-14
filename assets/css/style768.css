@@ -2,17 +2,58 @@
 
     
     .small-collapse{
-    	width: 100%;
-    	margin-bottom: 15px;
+        width: 100%;
+        margin-bottom: 15px;
     }
     .main-section {
         padding-top: 130px;
     }
-	.profile {
-	    width:45%;
-		height: auto;
-		margin: 0 15px 10px 0;
-		float: left;
-	}
+    .profile {
+        width:45%;
+        height: auto;
+        margin: 0 15px 10px 0;
+        float: left;
+    }
+
+/*The below section pertains to the portfolio.index page*/
+
+
+.photo {
+    position: relative;
+    width:45%;
+    height:auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+    
+}
+
+.photo img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+/*.photo:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}*/
+
+.imgLabel {
+    width:100%;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 70%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
 
 }
